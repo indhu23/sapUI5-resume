@@ -2,21 +2,21 @@ sap.ui.define(['sap/uxap/BlockBase'],
 	function (BlockBase) {
 		"use strict";
 
-		var BlockBlueT1 = BlockBase.extend("resume.SharedBlocks.BlockBlueT1", {
+		var Experience = BlockBase.extend("resume.SharedBlocks.Experience", {
 			metadata: {
 				views: {
 					Collapsed: {
-						viewName: "resume.SharedBlocks.BlockBlueT1",
+						viewName: "resume.SharedBlocks.Experience",
 						type: "XML"
 					},
 					Expanded: {
-						viewName: "resume.SharedBlocks.BlockBlueT1",
+						viewName: "resume.SharedBlocks.Experience",
 						type: "XML"
 					}
 				}
 			}
 		});
 
-		return BlockBlueT1;
+		return Experience;
 
 	});

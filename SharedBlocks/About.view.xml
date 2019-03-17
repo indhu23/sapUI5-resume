@@ -1,0 +1,7 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml">
+	<html:div style="height:auto;min-height:3em ;line-height: 1.5em;">
+		I am an experienced Full Stack Developer who can get things done! I have a demonstrated history of working in the Banking Industry, Smart TV
+		application development and I am Proficient in JavaScript. I am also experienced in Typescript, ReactJs, Redux, emberJS, nodeJS, Polymer
+		frameworks. I have good knowledge in Spring framework, Node.js, Maven, Firebase and SQL.
+	</html:div>
+</mvc:View>

@@ -1,27 +1,57 @@
-<core:View xmlns:core="sap.ui.core"
-		   xmlns="sap.uxap"
-		   xmlns:layout="sap.ui.layout"
-		   xmlns:m="sap.m"
-		   xmlns:blockcolor="resume.SharedBlocks"
-		   height="100%"
-		>
-
+<core:View xmlns:core="sap.ui.core" xmlns="sap.uxap" xmlns:layout="sap.ui.layout" xmlns:m="sap.m" xmlns:blockcolor="resume.SharedBlocks" controllerName="resume.ObjectPageSection"
+	height="100%">
 	<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="false">
 		<headerTitle>
-			<ObjectPageHeader objectTitle="Section sample">
+			<ObjectPageHeader objectTitle="Indhuja Balakrishnan" objectImageShape="Circle" isObjectIconAlwaysVisible="true"
+				objectImageURI="images/profile.JPG" objectSubtitle="Developer specializing in UI and Web applications">
+				<navigationBar>
+					<!-- A single sap.m.Bar control -->
+				</navigationBar>
+				<actions>
+					<!-- Either: -->
+					<!-- 1) Any amount of sap.ui.core.Control controls -->
+					<!-- 2) Any amount of  sap.uxap.ObjectPageHeaderAction Button controls -->
+					<ObjectPageHeaderActionButton icon="images/linkedin.png" text=" click for Linkedin profile" importance="Low" tooltip="click for Linkedin profile" press="handlePressLinkedIn"/>
+					<ObjectPageHeaderActionButton icon="images/github.png" text=" click for gitHub profile" importance="Low" tooltip="click for gitHub profile" press="handlePressGitHub"/>
+					<ObjectPageHeaderActionButton icon="images/React.png" text=" click for react portfolio" importance="Low" tooltip="click for react portfolio" press="handlePressReact"/>
+					
+				</actions>
+				<sideContentButton>
+					<!-- A single sap.m.Button control -->
+				</sideContentButton>
 			</ObjectPageHeader>
 		</headerTitle>
-
 		<headerContent>
-			<m:ObjectAttribute title="" text="This example explains the rules for the rendering of sections"/>
+			<layout:VerticalLayout width="100%">
+				<layout:BlockLayout id="BlockLayout">
+					<layout:BlockLayoutRow>
+						<layout:BlockLayoutCell>
+							<m:Label text="Email" design="Bold"/>
+							<m:ObjectAttribute text="bala.indu23@gmail.com" active="true"/>
+						</layout:BlockLayoutCell>
+						<layout:BlockLayoutCell>
+							<m:Label text="Mobile" design="Bold"/>
+							<m:ObjectAttribute text="(+49) 017643323611"/>
+						</layout:BlockLayoutCell>
+						<layout:BlockLayoutCell>
+							<m:Label text="Age" design="Bold"/>
+							<m:ObjectAttribute text="26"/>
+						</layout:BlockLayoutCell>
+						<layout:BlockLayoutCell>
+							<m:Label text="Address" design="Bold"/>
+							<m:ObjectAttribute text="Ottheinrichweg 2, 69181 Leimen, Germany"/>
+							</layout:BlockLayoutCell>
+							
+					</layout:BlockLayoutRow>
+				</layout:BlockLayout>
+			</layout:VerticalLayout>
 		</headerContent>
-
 		<sections>
 			<ObjectPageSection title="About">
 				<subSections>
 					<ObjectPageSubSection>
 						<blocks>
-							<blockcolor:BlockBlueT1 id="bbt1"/>
+							<blockcolor:About id="bbt1"/>
 						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
@@ -30,7 +60,7 @@
 				<subSections>
 					<ObjectPageSubSection>
 						<blocks>
-							<blockcolor:BlockBlueT1 id="bbt2"/>
+							<blockcolor:Experience id="bbt2"/>
 						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
@@ -39,7 +69,7 @@
 				<subSections>
 					<ObjectPageSubSection>
 						<blocks>
-							<blockcolor:BlockBlueT1 id="bbt3"/>
+							<blockcolor:Education id="bbt3"/>
 						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
@@ -48,7 +78,7 @@
 				<subSections>
 					<ObjectPageSubSection>
 						<blocks>
-							<blockcolor:BlockBlueT1 id="bbt4"/>
+							<blockcolor:Skills id="bbt4"/>
 						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
@@ -57,12 +87,11 @@
 				<subSections>
 					<ObjectPageSubSection>
 						<blocks>
-							<blockcolor:BlockBlueT1 id="bbt5"/>
+							<blockcolor:Interests id="bbt5"/>
 						</blocks>
 					</ObjectPageSubSection>
 				</subSections>
 			</ObjectPageSection>
 		</sections>
-
 	</ObjectPageLayout>
 </core:View>

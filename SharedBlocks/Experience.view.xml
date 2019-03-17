@@ -1,0 +1,109 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="http://www.w3.org/1999/xhtml">
+	<div style="height:auto;min-height:4em ;line-height: 1.5em;">
+		<section className="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+			<div className="my-auto">
+				<div className="resume-item d-flex flex-column flex-md-row mb-5">
+					<div className="resume-item d-flex flex-column flex-md-row">
+						<div className="resume-content mr-auto">
+							<div class="text resume-date text-md-right">
+								<span className="text-primary">January 2019 - Present</span>
+							</div>
+							<h3 className="mb-0">Master Thesis Student</h3>
+							<div className="subheading mb-3">SAP SE</div>
+							<p>
+								<li>Implementing unique interactive components within the design at runtime-based research application titled ‘Discovery’
+								</li>
+								<li>Design and implementation of concepts for easy user interaction in polymer framework through behavior-based approach
+								</li>
+								<li>Combining the concepts of data visualization with elastic user interactions</li>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="resume-item d-flex flex-column flex-md-row mb-5">
+					<div className="resume-item d-flex flex-column flex-md-row">
+						<div className="resume-content mr-auto">
+							<div class="text resume-date text-md-right">
+								<span className="text-primary">September 2018 - December 2018</span>
+							</div>
+							<h3 className="mb-0">Intern</h3>
+							<div className="subheading mb-3">SAP SE</div>
+							<p>
+								<li>Contributed in fixing of existing bugs in the design at runtime-based research application titled ‘Discovery’
+								</li>
+								<li>Implemented the requirements in polymer framework and executed design ideas for excellent user experience
+								</li>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="resume-item d-flex flex-column flex-md-row mb-5">
+					<div className="resume-item d-flex flex-column flex-md-row">
+						<div className="resume-content mr-auto">
+							<div class="text resume-date text-md-right">
+								<span className="text-primary">March 2018 - August 2018</span>
+							</div>
+							<h3 className="mb-0">Software Associate Engineer</h3>
+							<div className="subheading mb-3">Foxxum GmbH</div>
+							<p>
+								<li>Working on development of smart tv apps and providing technical feedback of app failures on different TV platforms.
+								</li>
+								<li>Developed an automation testing framework in JavaScript for testing of accepted Smart TV features in the Foxxum platform</li>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="resume-item d-flex flex-column flex-md-row mb-5">
+					<div className="resume-content mr-auto">
+						<div class="text resume-date text-md-right">
+							<span className="text-primary">July 2017 – November 2017</span>
+						</div>
+						<h3 className="mb-0">Working student</h3>
+						<div className="subheading mb-3">Cap3 GmbH</div>
+						<p>
+							<li>Worked in developing an application for creating and conducting digital empirical tests
+							</li>
+							<li>Developed many individual modules using React and Redux frameworks in Typescript
+							</li>
+						</p>
+					</div>
+				</div>
+				<div className="resume-item d-flex flex-column flex-md-row mb-5">
+					<div className="resume-content mr-auto">
+						<div class="text resume-date text-md-right">
+							<span className="text-primary">March 2015 – March 2017</span>
+						</div>
+						<h3 className="mb-0">Senior System Analyst</h3>
+						<div className="subheading mb-3">Standard Chartered Global Business Services</div>
+						<p>
+							<li>Responsibilities included collaborating with business and design teams to understand requirements and develop various modules in a
+								responsive singlepage ember.js web application.
+							</li>
+							<li>
+								Developed front-end banking web application modules using HTML5, CSS, JavaScript, AJAX and EmberJS framework in an Agile (Scrum) Development
+								environment.
+							</li>
+							<li>Made heavy use of Chrome Developer Tools +Firebug to ensure front-end code and assets were optimized and of high-quality
+							</li>
+						</p>
+					</div>
+				</div>
+				<div className="resume-item d-flex flex-column flex-md-row">
+					<div className="resume-content mr-auto">
+						<div class="text resume-date text-md-right">
+							<span className="text-primary">July 2014 – February 2015</span>
+						</div>
+						<h3 className="mb-0">Analyst</h3>
+						<div className="subheading mb-3">Standard Chartered Global Business Services</div>
+						<p>
+							<li>Worked in the existing system of Online Retail banking application, Standard Chartered Breeze-Jersey and contributed for major changes
+								in both the font-end and back-end development.
+							</li>
+							<li>Worked in technologies like Spring, Maven, Hibernate etc.</li>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</mvc:View>

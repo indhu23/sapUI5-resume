@@ -53,8 +53,17 @@
 				"stretch": true,
 				"files": [
 					"ObjectPageSection.view.xml",
-					"../SharedBlocks/BlockBlueT1.js",
-					"../SharedBlocks/BlockBlueT1.view.xml",
+					"ObjectPageSection.controller.js",
+					"../SharedBlocks/About.js",
+					"../SharedBlocks/About.view.xml",
+						"../SharedBlocks/Experience.js",
+					"../SharedBlocks/Experience.view.xml",
+						"../SharedBlocks/Education.js",
+					"../SharedBlocks/Education.view.xml",
+						"../SharedBlocks/Skills.js",
+					"../SharedBlocks/Skills.view.xml",
+						"../SharedBlocks/Interests.js",
+					"../SharedBlocks/Interests.view.xml",
 					"manifest.json"
 				]
 			}

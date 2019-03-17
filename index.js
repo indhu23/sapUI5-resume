@@ -12,7 +12,7 @@ sap.ui.require([
 			app : new App ({
 				pages : [
 					new Page({
-						title : "Object Page Layout Section sample",
+						title : "UI 5 CV",
 						enableScrolling : false,
 						content : [
 							new ComponentContainer({
