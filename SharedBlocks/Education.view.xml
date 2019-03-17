@@ -1,46 +1,46 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="http://www.w3.org/1999/xhtml">
-	<div style="height:auto;min-height:4em ;line-height: 1.5em;">
-	 <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-                <div className="my-auto">
-                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
-                        <div className="resume-content mr-auto">
-                        	<div class=" text resume-date text-md-right ">
+    <div style="height:auto;min-height:4em ;line-height: 1.5em;">
+        <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+            <div className="my-auto">
+                <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div className="resume-content mr-auto">
+                        <div class=" text resume-date text-md-right" style="margin-left: 5px;float:right;color:#0059b3 ">
                             <span className="text-primary">Since March 2017</span>
                         </div>
-                            <h3 className="mb-0">Fachhochschule Kiel</h3>
-                            <div className="subheading mb-3">Masters in Information Engineering</div>
-                            <p>Specialization – Information Technology and Systems development</p>
-                            
-                        </div>
-                        
-                    </div>
+                        <h3 className="mb-0">Fachhochschule Kiel</h3>
+                        <div className="subheading mb-3">Masters in Information Engineering</div>
+                        <p>Specialization – Information Technology and Systems development</p>
 
-                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
-                        <div className="resume-content mr-auto">
-                        	<div class="text resume-date text-md-right">
-                            <span className="text-primary">August 2010 – March 2014</span>
-                        </div>
-                            <h3 className="mb-0">Panimalar Engineering College, India</h3>
-                            <div className="subheading mb-3">Bachelors in Computer Science Engineering</div>
-                            <p>Overall Aggregate: 83.1%</p>
-                        </div>
-                        
                     </div>
-
-                    <div className="resume-item d-flex flex-column flex-md-row">
-                        <div className="resume-content mr-auto">
-                        	 <div class=" text resume-date text-md-right">
-                            <span className="text-primary">June 2008 – March 2010</span>
-                        </div>
-                            <h3 className="mb-0">Jaigopal Garodia Matric Higher Secondary School</h3>
-                            <div className="subheading mb-3">All India Secondary School Examination (AISSE)</div>
-                            <p>Overall Aggregate: 93.5%</p>
-                        </div>
-                       
-                    </div>
-
 
                 </div>
-            </section>
-	</div>
+
+                <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div className="resume-content mr-auto">
+                        <div class="text resume-date text-md-right" style="margin-left: 5px;float:right;color:#0059b3 ">
+                            <span className="text-primary">August 2010 – March 2014</span>
+                        </div>
+                        <h3 className="mb-0">Panimalar Engineering College, India</h3>
+                        <div className="subheading mb-3">Bachelors in Computer Science Engineering</div>
+                        <p>Overall Aggregate: 83.1%</p>
+                    </div>
+
+                </div>
+
+                <div className="resume-item d-flex flex-column flex-md-row">
+                    <div className="resume-content mr-auto">
+                        <div class=" text resume-date text-md-right" style="margin-left: 5px;float:right;color:#0059b3 ">
+                            <span className="text-primary">June 2008 – March 2010</span>
+                        </div>
+                        <h3 className="mb-0">Jaigopal Garodia Matric Higher Secondary School</h3>
+                        <div className="subheading mb-3">All India Secondary School Examination (AISSE)</div>
+                        <p>Overall Aggregate: 93.5%</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+    </div>
 </mvc:View>
