@@ -1,0 +1,32 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="http://www.w3.org/1999/xhtml">
+	<div style="height:auto;min-height:4em ;line-height: 1.5em;">
+	 <ul className="fa-ul mb-0">
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            <span className="text-primary subheading mb-3" style="font-weight:bold">Languages</span>
+                             - German (A2 level), English (Fluent), Hindi (Basics), Tamil (Mother
+                            Tongue),Telugu (Mother tongue)
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            <span className="text-primary subheading mb-3" style="font-weight:bold">Technical Languages</span>
+                             - JavaScript, Es6, Typescript, Java, XHTML/HTML5, CSS2/CSS3, JSON, XML, AJAX, LESS
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            <span className="text-primary subheading mb-3" style="font-weight:bold"> Database </span>
+                           - PL/SQL (oracle), nosql(Firebase)
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            <span className="text-primary subheading mb-3" style="font-weight:bold">  Framework </span>
+                           - Spring, Hibernate, Ember.js, React, Redux, Node.js, Polymer, SAP UI5
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            <span className="text-primary subheading mb-3" style="font-weight:bold">  Tools </span>
+                           - Git/Subversion, Atom, JIRA, Chrome Developer Tools, Maven, Slack, Webpack
+                        </li>
+                    </ul>
+	</div>
+</mvc:View>
